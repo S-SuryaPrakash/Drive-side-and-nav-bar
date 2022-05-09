@@ -1,0 +1,54 @@
+.navv{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+span{
+    display: flex;
+    gap: 1em;
+}
+input{
+    width: 700px;;
+    height: 2.5em;
+    border-radius: 5px;
+    border-style: none;
+    background-color: lightgray;
+}
+.container{
+    gap: 2.5em;;
+}
+.circle{
+        height: auto;
+        width: 35px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        padding:9px 0px ;
+}
+.drive{
+    gap: 12.5em;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2em;
+}
+hr{
+    margin: 0px;
+    color: grey;
+    width: 100px;
+
+}
+.buy{
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #bbb;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 35px;
+}
